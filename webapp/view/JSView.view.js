@@ -5,7 +5,7 @@ sap.ui.jsview("basicmvc.view.JSView", {
 	 * @memberOf basicmvc.view.JSView
 	 */
 	getControllerName: function() {
-		console.log("getControllerName called");
+		console.log("getControllerName is called");
 		return "basicmvc.controller.JSView";
 	},
 
@@ -14,7 +14,7 @@ sap.ui.jsview("basicmvc.view.JSView", {
 	 * @memberOf basicmvc.view.JSView
 	 */
 	createContent: function(oController) {
-		console.log("createContent called");
+		console.log("createContent is called");
 
 		
 		var oBtn1 = new sap.m.Button("idB2",{
